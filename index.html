@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DoaPet — Início</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <div class="logo">DP</div>
+        <span class="brand-name">DoaPet</span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <a href="index.html" class="nav-link active">Início</a>
+        <a href="projetos.html" class="nav-link">Campanhas</a>
+        <a href="cadastro.html" class="nav-link">Cadastro</a>
+      </nav>
+
+      <div class="right-controls">
+        <button id="theme-toggle" class="icon-btn" aria-label="Alternar tema">🌙</button>
+        <button class="btn btn-primary" id="donate-btn">Doe</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <img src="images/hero.jpg" alt="Cachorro sendo abraçado" class="hero-img">
+    <div class="container hero-content" data-animate>
+      <h1>Resgatamos vidas — conectamos famílias</h1>
+      <p>
+        A <strong>DoaPet</strong> é uma ONG dedicada ao resgate, recuperação e adoção responsável de animais.
+        Atuamos com resgates de emergência, lares temporários e ações de conscientização.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="projetos.html">Nossas Campanhas</a>
+        <a class="btn btn-outline" href="cadastro.html">Quero ser voluntário</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE / MISSÃO -->
+  <section class="container about" data-animate>
+    <div class="about-card">
+      <h2>Nossa missão</h2>
+      <p>
+        Resgatar animais em situação de abandono ou perigo, oferecer cuidados veterinários e preparar para adoção responsável.
+        Valorizamos transparência, ética e bem-estar animal.
+      </p>
+      <ul class="stats">
+        <li><strong id="stat-resgates">0</strong><span>Resgates</span></li>
+        <li><strong id="stat-adocoes">0</strong><span>Adoções</span></li>
+        <li><strong id="stat-volunt">0</strong><span>Voluntários</span></li>
+      </ul>
+    </div>
+    <aside class="volunteer-card" data-animate>
+      <h3>Seja voluntário</h3>
+      <p>Faça parte da transformação. Dedique seu tempo e carinho.</p>
+      <a class="btn btn-primary" href="cadastro.html">Inscreva-se</a>
+    </aside>
+  </section>
+
+  <!-- PEQUENA GALERIA/DESTAQUES -->
+  <section class="container highlights" data-animate>
+    <h2 class="section-title">Como ajudamos</h2>
+    <div class="grid-3">
+      <article class="feature">
+        <div class="feature-icon">🏥</div>
+        <h4>Atendimento Veterinário</h4>
+        <p>Atendimento emergencial e tratamentos até recuperação completa.</p>
+      </article>
+      <article class="feature">
+        <div class="feature-icon">🏠</div>
+        <h4>Lares Temporários</h4>
+        <p>Famílias acolhedoras oferecem abrigo durante a reabilitação.</p>
+      </article>
+      <article class="feature">
+        <div class="feature-icon">🤝</div>
+        <h4>Adoção Responsável</h4>
+        <p>Match entre animal e tutor com acompanhamento pós-adoção.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 DoaPet — ONG de Resgate Animal</p>
+      <div class="footer-links">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Campanhas</a>
+        <a href="cadastro.html">Cadastro</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

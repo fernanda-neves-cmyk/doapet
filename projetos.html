@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DoaPet — Campanhas</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <div class="logo">DP</div>
+        <span class="brand-name">DoaPet</span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="projetos.html" class="nav-link active">Campanhas</a>
+        <a href="cadastro.html" class="nav-link">Cadastro</a>
+      </nav>
+
+      <div class="right-controls">
+        <button id="theme-toggle-2" class="icon-btn" aria-label="Alternar tema">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" >
+    <section class="projects-hero" data-animate>
+      <h1>Nossas Campanhas Atuais</h1>
+      <p>Conheça as campanhas que estamos desenvolvendo — participe com doações, divulgação ou voluntariado.</p>
+    </section>
+
+    <section class="projects-grid" data-animate>
+      <article class="project-card">
+        <img src="images/camp1.jpg" alt="Resgate no mato">
+        <div class="project-body">
+          <h3>Resgate em áreas rurais</h3>
+          <p>
+            Equipe especializada buscou e resgatou animais feridos em áreas de mata e estradas.
+            Levamos ao centro para atendimento e reabilitação.
+          </p>
+          <div class="project-actions">
+            <a class="btn btn-outline" href="cadastro.html">Quero ajudar</a>
+            <button class="btn btn-primary" onclick="donationModal()">Doar</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/camp2.jpg" alt="Veterinário cuidando de animais">
+        <div class="project-body">
+          <h3>Clínica móvel - Saúde para todos</h3>
+          <p>
+            Campanha de consultas e vacinas em bairros com pouca cobertura veterinária.
+            Atuamos com prevenção e tratamento.
+          </p>
+          <div class="project-actions">
+            <a class="btn btn-outline" href="cadastro.html">Ser voluntário</a>
+            <button class="btn btn-primary" onclick="donationModal()">Doar</button>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 DoaPet — ONG de Resgate Animal</p>
+      <div class="footer-links">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Campanhas</a>
+        <a href="cadastro.html">Cadastro</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
