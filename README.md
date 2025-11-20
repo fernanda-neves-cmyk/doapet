@@ -134,6 +134,9 @@ Responsável por:
 
 ---
 
+🔗 O site está disponível em:
+https://seu-usuario.github.io/nome-do-repositorio/
+
 📜 Licença
 
 Este projeto é livre para fins educacionais e acadêmicos.
