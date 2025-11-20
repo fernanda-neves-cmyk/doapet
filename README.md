@@ -61,19 +61,23 @@ As animações, contadores e modo escuro são controlados por JavaScript.
 # 📁 Estrutura do Projeto
 
 /
+
 ├── index.html
+
 ├── projetos.html
+
 ├── cadastro.html
+
 ├── /css
 │ └── style.css
+
 ├── /js
 │ └── main.js
+
 └── /img
 ├── hero.jpg
-├── projetos.jpg
-├── voluntario.jpg
-└── logo.png
-
+├── camp1.jpg
+├── camp2.jpg
 
 ---
 
