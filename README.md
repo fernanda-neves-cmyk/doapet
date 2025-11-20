@@ -135,7 +135,7 @@ Responsável por:
 ---
 
 🔗 O site está disponível em:
-https://seu-usuario.github.io/nome-do-repositorio/
+[](https://fernanda-neves-cmyk.github.io/doapet/)
 
 📜 Licença
 
